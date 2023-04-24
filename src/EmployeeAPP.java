@@ -1,11 +1,16 @@
 
 
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-
 import javax.swing.JTextField;
 
+
+
+
 public class EmployeeAPP {
+    private static String[] args;
+    private static String[] args2;
     /**
      * @param args
      */
@@ -13,7 +18,9 @@ public class EmployeeAPP {
          
 
         JFrame frame = new JFrame();
-        
+        JButton button = new JButton("Enter");
+       
+        button.setBounds(270,450,100,30); // Dimension
         
        
         //JLabel Settings
@@ -186,16 +193,11 @@ public class EmployeeAPP {
         frame.add(philHealthText);
         frame.add(incomeTaxText);
         
-        
+        frame.add(button);
 
-
-        
-
-        
-
-        
         frame.setLayout(null);
-
+    }
+    
 
 
 
@@ -204,4 +206,4 @@ public class EmployeeAPP {
         
 
     }
-}
+
