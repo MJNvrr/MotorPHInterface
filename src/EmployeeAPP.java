@@ -13,6 +13,9 @@ public class EmployeeAPP {
          
 
         JFrame frame = new JFrame();
+	JButton button = new JButton("Enter");
+       
+        button.setBounds(270,450,100,30); // Dimension
         
         
        
@@ -189,7 +192,7 @@ public class EmployeeAPP {
         
 
 
-        
+        frame.add(button);
 
         
 
