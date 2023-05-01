@@ -9,8 +9,6 @@ import javax.swing.JTextField;
 
 
 public class EmployeeAPP {
-    private static String[] args;
-    private static String[] args2;
     /**
      * @param args
      */
@@ -196,14 +194,18 @@ public class EmployeeAPP {
         frame.add(button);
 
         frame.setLayout(null);
+
+
     }
+}
+
+
+
+
+        
+
+        
+
     
 
-
-
-        
-
-        
-
-    }
 
