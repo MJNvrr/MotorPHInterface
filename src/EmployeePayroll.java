@@ -8,7 +8,7 @@ import javax.swing.JTextField;
 
 
 
-public class EmployeeAPP {
+public class EmployeePayroll {
     /**
      * @param args
      */
@@ -16,9 +16,20 @@ public class EmployeeAPP {
          
 
         JFrame frame = new JFrame();
-        JButton button = new JButton("Enter");
-       
-        button.setBounds(270,450,100,30); // Dimension
+        JButton button = new JButton("ADD");
+        button.setBounds(30,450,100,30); // Dimension
+
+        JButton deleteButton = new JButton("Delete");
+        deleteButton.setBounds(160,450,100,30);
+
+        JButton updateButton = new JButton("Update");
+        updateButton.setBounds(280,450,100,30);
+
+        JButton resetButton = new JButton("Reset");
+        resetButton.setBounds(410,450,100,30);
+
+        JButton calculateButton = new JButton("Calculate");
+        calculateButton.setBounds(530,450,100,30);
         
        
         //JLabel Settings
@@ -192,6 +203,12 @@ public class EmployeeAPP {
         frame.add(incomeTaxText);
         
         frame.add(button);
+        frame.add(deleteButton);
+        frame.add(updateButton);
+        frame.add(resetButton);
+        frame.add(calculateButton);
+
+
 
         frame.setLayout(null);
 
