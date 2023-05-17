@@ -181,7 +181,5 @@ public void setNetPay(Double netPay) {
     this.netPay = netPay;
 }
 
-public class EmployeeAPP  {
-    EmployeeAPP e = new EmployeeAPP();
-}
+
 }

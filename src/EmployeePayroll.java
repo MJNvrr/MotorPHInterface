@@ -16,7 +16,6 @@ public class EmployeePayroll {
          
 
         JFrame frame = new JFrame();
-<<<<<<< HEAD:src/EmployeePayroll.java
         JButton button = new JButton("ADD");
         button.setBounds(30,450,100,30); // Dimension
 
@@ -31,12 +30,6 @@ public class EmployeePayroll {
 
         JButton calculateButton = new JButton("Calculate");
         calculateButton.setBounds(530,450,100,30);
-=======
-	JButton button = new JButton("Enter");
-       
-        button.setBounds(270,450,100,30); // Dimension
-        
->>>>>>> 8630584143b1a493dd5c2fb135146458f9685bf2:src/EmployeeAPP.java
         
        
         //JLabel Settings
@@ -216,10 +209,6 @@ public class EmployeePayroll {
         frame.add(calculateButton);
 
 
-<<<<<<< HEAD:src/EmployeePayroll.java
-=======
-        frame.add(button);
->>>>>>> 8630584143b1a493dd5c2fb135146458f9685bf2:src/EmployeeAPP.java
 
         frame.setLayout(null);
 

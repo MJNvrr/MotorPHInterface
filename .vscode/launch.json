@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmployeeRecordsView",
+            "request": "launch",
+            "mainClass": "EmployeeRecordsView",
+            "projectName": "MotorPHInterface_c53d5cde"
+        },
+        {
+            "type": "java",
             "name": "EmployeePayroll",
             "request": "launch",
             "mainClass": "EmployeePayroll",

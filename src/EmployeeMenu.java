@@ -15,12 +15,12 @@ public class EmployeeMenu {
     
     
    
-    JButton employeeDetailsButton = new JButton("Employee Details");
-    employeeDetailsButton.setBounds(90,30,200,40);
-    panel.add(employeeDetailsButton);
+    JButton employeeSystemButton = new JButton("Employee System");
+    employeeSystemButton.setBounds(90,30,200,40);
+    panel.add(employeeSystemButton);
 
 
-    JButton payrollSystemButton = new JButton("Payroll Details");
+    JButton payrollSystemButton = new JButton("Payroll System");
     payrollSystemButton.setBounds(90,100,200,40);
     panel.add(payrollSystemButton);
 
