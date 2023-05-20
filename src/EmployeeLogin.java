@@ -63,7 +63,7 @@ public class EmployeeLogin implements ActionListener {
     private AbstractButton success;
     @Override
     public void actionPerformed(ActionEvent e) {
-        // TODO Auto-generated method stub
+        
         throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
 
         String employeeNo = employeeNoText.getText();

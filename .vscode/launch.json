@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EmployeeLeaveApplication",
+            "request": "launch",
+            "mainClass": "EmployeeLeaveApplication",
+            "projectName": "MotorPHInterface_c53d5cde"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeUpdateAndDelete",
+            "request": "launch",
+            "mainClass": "EmployeeUpdateAndDelete",
+            "projectName": "MotorPHInterface_c53d5cde"
+        },
+        {
+            "type": "java",
+            "name": "EmployeeApplication",
+            "request": "launch",
+            "mainClass": "EmployeeApplication",
+            "projectName": "MotorPHInterface_c53d5cde"
+        },
+        {
+            "type": "java",
             "name": "EmployeeRecordsView",
             "request": "launch",
             "mainClass": "EmployeeRecordsView",
